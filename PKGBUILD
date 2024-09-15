@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=android-wifi-utils
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1"
-_commit="6642f42fb8e761970f20429f92e543a3ff0f40c6"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1.1"
+_commit="8f27f41f4a018f647d7f72128fb965b09636218e"
 pkgrel=1
 _pkgdesc=(
   "Wireless tools."
@@ -69,7 +69,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="a29da1f7308f612ecc4f186e28aa93c2429cc314723df0cbc4c730de31b6dc55"
+    _sum="df28f3f45ecfc31e11ef37d21d96a32b1b284f643b158825eef3b6989c70a2c8"
   fi && \
     source+=(
       "${_tar}"
