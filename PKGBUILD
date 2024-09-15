@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=android-wifi-utils
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1.1"
-_commit="8f27f41f4a018f647d7f72128fb965b09636218e"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1"
+_commit="a93931e649a91e75628479a33342a296467b06bf"
 pkgrel=1
 _pkgdesc=(
   "Wireless tools."
@@ -24,6 +24,7 @@ license=(
   AGPL3
 )
 depends=(
+  "iw-tools"
   "libcrash-bash"
 )
 _os="$( \
@@ -69,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="df28f3f45ecfc31e11ef37d21d96a32b1b284f643b158825eef3b6989c70a2c8"
+    _sum="6b09d80d5da66f1c99eb37bf41151f39d488a50c6187116be64fa65c115cd6e7"
   fi && \
     source+=(
       "${_tar}"
