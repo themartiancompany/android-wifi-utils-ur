@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=android-wifi-utils
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
-_commit="4b0a61a20a080eacd32274d8d6b485e9fd269f6a"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1"
+_commit="6642f42fb8e761970f20429f92e543a3ff0f40c6"
 pkgrel=1
 _pkgdesc=(
   "Wireless tools."
@@ -69,7 +69,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="44d203d909ef6ed9e99f621193aa96473eb195ab05f4ccfc0af98ef424ac4cfb"
+    _sum="a29da1f7308f612ecc4f186e28aa93c2429cc314723df0cbc4c730de31b6dc55"
   fi && \
     source+=(
       "${_tar}"
@@ -80,6 +80,7 @@ _tarname="${pkgname}-${_tag}"
 validpgpkeys=(
   # Truocolo <truocolo@aol.com>
   '97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9'
+  'DD6732B02E6C88E9E27E2E0D5FC6652B9D9A6C01'
 )
 
 check() {
