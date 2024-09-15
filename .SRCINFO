@@ -1,0 +1,16 @@
+pkgbase = android-wifi-utils
+	pkgdesc = Wireless tools.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-wifi-utils
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcrash-bash
+	depends = tsu
+	source = android-wifi-utils-4b0a61a20a080eacd32274d8d6b485e9fd269f6a.zip::https://github.com/themartiancompany/android-wifi-utils/archive/4b0a61a20a080eacd32274d8d6b485e9fd269f6a.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 44d203d909ef6ed9e99f621193aa96473eb195ab05f4ccfc0af98ef424ac4cfb
+
+pkgname = android-wifi-utils
